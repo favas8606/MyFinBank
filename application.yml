@@ -1,2 +1,13 @@
 myapp:
   message: "Hello from GitHub Config!"
+  api-gateway: "localhost://9092"
+  authentication: "localhost://9090"
+  user-operation: "localhost://9091"
+  Admin-operation: "localhost://9093"
+  EmailService: "localhost://9094"
+  chat: "localhost://9095"
+
+
+
+env-secreat:
+  jwt: "bXktand0LXNlY3JldA=="
